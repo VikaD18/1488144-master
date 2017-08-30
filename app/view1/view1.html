@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Телефоны</title>
+    <title>My shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,7 +31,7 @@
                 </md-card-title>
                 <md-card-content layout="row" layout-align="space-between">
                     <div class="md-media-xl card-media">
-                        <img ng-src={{item.image}} class="md-card-image" style="height: 100%" alt="" >
+                        <img ng-src={{item.image}} class="md-card-image" style="height: 100%" alt="Фото" >
                     </div>
                 </md-card-content>
             </md-card>
@@ -68,11 +64,8 @@
                 <div class="container">
                     <div id="td1App">
                         <input type="text" class="form-control" placeholder="Комментарий">
-                        <div class="td1Div">
-                            <ul class="tdList list-styles">
+                        <input class = "send" type="submit" name="send" value="отправить">
 
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <script src="../js/jquery.js"></script>
@@ -95,8 +88,6 @@
                         }
                     }
                     showTasks();
-
-
                     $('#td1App input').on('keydown', function (e) {
                         if (e.keyCode != 13)
                             return;
@@ -112,8 +103,6 @@
                             nId++;
 
                             localStorage.setItem(tdMask+nId,str);
-
-
                             $('<li></li>').addClass('idItem')
                                 .attr('data-itemid', tdMask+nId)
                                 .text(str).appendTo(tdList)
@@ -125,8 +114,6 @@
                         jet.remove();
                     })
                 </script>
-
-                <div class="info">Необходимо зарегистрироваться.</div>
                 <div class="row">
                     <h3>Отзывы</h3>
                     <ul class="review-list list-group">
@@ -139,7 +126,6 @@
         </div>
     </div>
 </div>
-
 <div class="form">
     <form action="new.php" method="post" name="auth" onsubmit="create_window()" >
         <input type="text" name="name" value="" placeholder="Ваше имя">
@@ -149,8 +135,6 @@
         <input class = "send" type="submit" name="send" value="отправить">
     </form>
 </div>
-
-
 <footer>
     <div id="footer">
         <div id="twitter">
@@ -164,7 +148,6 @@
                 <a href="#">Телефоны</a>
                 <a href="https://hi-news.ru/tag/smartphones">Информация о новых смартфонах</a>
                 <a href="http://www.maximonline.ru/guide/progress/_article/future-smartphone-features/">Смартфоны будущего</a>
-
             </div>
         </div>
         <div id="social">
@@ -197,6 +180,5 @@
 <script src="../app.js"></script>
 <script src="view1.js"></script>
 <script src="view1.controller.js"></script>
-
 </body>
 </html>
