@@ -1,0 +1,33 @@
+[
+  {
+    "title":"iPhone 6 16GB",
+    "text":"Мощный, очень экономичный.Металлическая поверхность плавно переходит в стекло.",
+    "color":"gold",
+    "price":"11 500 грн.",
+    "image":"http://www.sundan.com/public/images/9a/14/94/316f5209a37e46fcc52e4894a969b4931765ba6f.jpg?1447294190"
+  },
+  {
+    "title":"iPhone 7 Plus 128GB",
+    "text":"Отличный смартфон. Картинка отличная и четкая, камера выдает не реальные снимки.",
+    "color":"red",
+    "price":"27 000 грн.",
+    "image":"http://www.citrus.ua/upload/new_iblock/fc1/2f35436889da34f5c5a44df67ba45b80.jpg"
+  },
+
+  {
+
+    "title":"Samsung Galaxy S5",
+    "text":"Смартфон оснащен 2ГБ ОП и 16ГБ встроенной памяти.Емкость аккумулятора-2800 мАч.",
+    "color":"white",
+    "price":"5 000 грн.",
+    "image":"https://www.romelas.com/image/data/1/samsung/data-1-samsung-samsung-s5-java-1036061-1-600x600.jpg"
+  },
+  {
+
+    "title":"Samsung Galaxy S8 64GB",
+    "text":"У Display вигнутий по краях Samsung екран,утворюючи гладку поверхню без опуклостей.",
+    "color":"black",
+    "price":"22 500 грн.",
+    "image":"http://hotline.ua/img/tx/144/1446188705.jpg"
+  }
+]

@@ -1,0 +1,252 @@
+body{margin: 0;
+    padding:0;
+    background-color:#FAFAFA;
+}
+input{
+    width: 60%;
+    margin-bottom: 20px;
+
+}
+.tdItem{
+    padding: 10px;
+    cursor: default;
+    border-radius: 7px;
+}
+
+.inputdemoErrorsAdvanced {
+    /* Setup animations similar to the ng-messages */ }
+.inputdemoErrorsAdvanced .hint {
+    /* Position the hint */
+    position: absolute;
+    left: 2px;
+    right: auto;
+    bottom: 7px;
+    /* Copy styles from ng-messages */
+    font-size: 12px;
+    line-height: 14px;
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);
+    /* Set our own color */
+    color: grey; }
+.inputdemoErrorsAdvanced .hint.ng-hide,
+.inputdemoErrorsAdvanced .hint.ng-enter,
+.inputdemoErrorsAdvanced .hint.ng-leave.ng-leave-active {
+    bottom: 26px;
+    opacity: 0; }
+.inputdemoErrorsAdvanced .hint.ng-leave,
+.inputdemoErrorsAdvanced .hint.ng-enter.ng-enter-active {
+    bottom: 7px;
+    opacity: 1; }
+#form {
+    float: left;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: right;
+}
+.form form{
+    margin: 0;
+    display: block;
+    width: 734px;
+    padding: 10px 300px;
+}
+.form form input{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    height: 50px;
+}
+.form form input.send{
+    width: 120px;
+    background: red;
+}
+.form form textarea{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    color: black;
+}
+footer {
+    background-color: #ebebeb;
+    color: #004A82;
+    font-size: 13px;
+}
+#footer {
+    max-width: 950px;
+    margin: 0 70px;
+    padding: 20px 0;
+    height: 90px;
+}
+footer h3 {
+    font: 14px 'Oswald', sans-serif;
+    color: #191970;
+    border-bottom: 1px solid #004A82;
+    margin: 0 0 10px 0;
+}
+#twitter time a {
+    color: #191970;
+}
+#twitter {
+    float: left;
+    width: 300px;
+}
+#twitter p {
+    padding-right: 15px;
+}
+footer a {
+    color: #191970;
+}
+#sitemap {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    padding-right: 15px;
+}
+#sitemap div {
+    display: inline-block;
+}
+#sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#sitemap a:hover {
+    text-decoration: underline;
+}
+#social {
+    float: left;
+    margin-left: 20px;
+    width: 130px;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background: url(../images/social.png) no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icon-small  {
+    width: 16px;
+    height: 16px;
+    background: url(../images/social-small.png) no-repeat;
+    display: inline-block;
+    margin: 5px 6px 0 0;
+}
+.twitter {
+    background-position: 0 0;
+}
+.facebook {
+    background-position: -30px 0;
+}
+.google-plus {
+    background-position: -60px 0;
+}
+.vimeo {
+    background-position: 0 0;
+}
+.youtube {
+    background-position: -16px 0;
+}
+.flickr {
+    background-position: -32px 0;
+}
+.instagram {
+    background-position: -48px 0;
+}
+.rss {
+    background-position: -64px 0;
+}
+
+#hgroup {
+    float: right;
+    margin-top: 30px;
+    text-align: right;
+    list-style: none;
+}
+
+
+input{
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+.tdItem{
+    padding: 10px;
+    cursor: default;
+    border-radius: 7px;
+}
+
+.width-half{
+    width: 50%;
+}
+.left{
+    float: left;
+}
+div{
+    display: block;
+}
+.right{
+    float: right;
+    margin-top: 25px;
+}
+
+.starRate{
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 10px;
+}
+.starRate ul {
+    width: 160px;
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style-type: none;
+}
+.starRate li{
+    display: inline;
+    list-style: none;
+}
+.starRate a{
+    float: right;
+    margin: 0 80px 0 -144px;
+    width: 80px;
+    height: 16px;
+    background-position: left 0;
+    color: #000;
+    text-decoration: none;
+}
+.starRate a, .starRate b{
+    background: url(../images/star.gif) left top repeat-x;
+}
+.starRate a span{
+    position: absolute;
+    left: -300px;
+}
+#content{
+    resize: none;
+
+}
+.submit-btn{
+    margin: 10px 0;
+    font-weight: bold ;
+}
+review-list li{
+    font-size: 16px;
+}
+.info{
+    font-size: 20px;
+    padding: 10px;
+    color:#CD2222 ;
+    border: 1px solid #B0B0B0;
+    border-radius: 10px;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
