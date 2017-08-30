@@ -3,8 +3,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$name = $_POST['name'];
 	$surname = $_POST['surname'];
 	$mail = $_POST['mail'];
-	$city = $_POST['city'];
-	echo $name."<br />".$surname."<br />".$city."<br />".$mail."<br />";
+	echo $name."<br />".$surname."<br />".$mail."<br />";
 } else { 
 	header("Location: ../new.php"); 
 }
@@ -21,13 +20,12 @@ function check_length($value = "", $min, $max) {
 }
 $name = clean($name);
 $surname = clean($surname);
-$city = clean($city);
 $mail = clean($mail);
 
 if(!empty($name) && !empty($surname) && !empty($mail)) {
     $mail_validate = filter_var($mail, FILTER_VALIDATE_EMAIL); 
 if(check_length($name, 2, 25) && check_length($surname, 2, 50)  && $mail_validate) {
-        echo "Спасибо за сообщение";
+        echo "Спасибо за регистрацию";
     }
 	else { 
         echo "Введенные данные некорректные";
